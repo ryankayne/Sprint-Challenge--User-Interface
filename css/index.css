@@ -66,9 +66,46 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ .nav {
+    
+	display: flex;
+	justify-content: space-between;
+	width: 75%;    
+    align-items: center;
+    padding: 20px 2%;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-image{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .top-content {
@@ -104,7 +141,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    
     margin: 20px 2.5%;
     color: white;
     display: flex;
