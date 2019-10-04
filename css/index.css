@@ -90,7 +90,7 @@ a {
     
 	display: flex;
 	justify-content: space-between;
-	width: 75%;    
+	width: 77%;    
     align-items: center;
     padding: 20px 2%;
     margin: 5px 0;
@@ -188,7 +188,6 @@ a {
     background: dodgerblue
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -201,6 +200,42 @@ a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-top-section {
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+.about-mid-section {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-text-container {
+
+    border-bottom: 1px dashed black;
+    width: 370px;
+    padding-bottom: 20px;
+}
+
+.text1 {
+    
+    margin: 0 15px 15px 0;
+}
+
+.text2 {
+    margin: 0 0 15px 15px;
+}
+
+.text3 {
+    margin: 15px 15px 0 0;
+}
+
+.text4 {
+    margin: 15px 0 0 15px;
 }
 
 footer {
