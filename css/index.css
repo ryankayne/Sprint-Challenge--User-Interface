@@ -66,9 +66,46 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ .nav {
+    
+	display: flex;
+	justify-content: space-between;
+	width: 77%;    
+    align-items: center;
+    padding: 20px 2%;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-image{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .top-content {
@@ -104,12 +141,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold
+}
+
+.box3 {
+    background: cadetblue
+}
+
+.box4 {
+    background: coral
+}
+
+.box5 {
+    background: crimson
+}
+
+.box6 {
+    background: forestgreen
+}
+
+.box7 {
+    background: darkorchid
+}
+
+.box8 {
+    background: hotpink
+}
+
+.box9 {
+    background: indigo
+}
+
+.box10 {
+    background: dodgerblue
 }
 
 .bottom-content {
@@ -124,6 +200,77 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-top-section {
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.about-about-text {
+    width: 95%;
+    line-height: 20px;
+}
+
+.about-mid-section {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-img-mid {
+    padding-bottom: 10px;
+}
+
+.about-text-container {
+    border-bottom: 1px dashed black;
+    width: 360px;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.text1 {
+    
+    margin: 0 15px 15px 20px;
+}
+
+.text2 {
+    margin: 0 20px 15px 15px;
+}
+
+.text3 {
+    margin: 15px 15px 0 20px;
+}
+
+.text4 {
+    margin: 15px 20px 0 15px;
+}
+
+.learn-more {
+    background-color: white;
+	display: flex;
+	text-align: center;
+	height: 35px;
+	width: 146px;
+	padding: 5px 30px 5px 30px;
+	margin: 30px 0 10px 5px;
+	font-size: 16px;
+	border-radius: 6px;
+	border: 2px solid black;
+}
+
+.lets-work-section {
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+
+.lets-work {
+    margin: 20px 0 40px 0;
+    width: 95%;
 }
 
 footer {
